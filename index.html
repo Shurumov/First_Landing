@@ -5,28 +5,67 @@
     <meta charset="UTF-8">
     <title>Landing</title>
     <link rel="stylesheet" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="js/common.js"></script>
+
 </head>
 
 <body>
+
     <header>
         <div class="container clearfix">
-            <div class="header-logo">
-                <img src="img/header-logo.png" width="211" height="36" alt="">
+            <div class="main-header-desktop">
+                <div class="header-logo">
+                    <a href="#"><img src="img/header-logo.png" width="211" height="36" alt=""></a>
+                </div>
+                <ul class="main-nav">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">How it works</a></li>
+                    <li><a href="#">Discover a project</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Find out more</a></li>
+                </ul>
+                <a href="#" class="btn btn-login">Login</a>
             </div>
-            <ul class="main-nav">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">How it works</a></li>
-                <li><a href="#">Discover a project</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">Find out more</a></li>
-            </ul>
-            <a href="#" class="btn btn-login">Login</a>
+
+            <div class="main-header-mobile">
+                <a href="#" class="main-header-mobile-toggler">
+                    <span></span>
+                </a>
+                <a href="#" class="main-header-mobile-logo">
+                    <img src="img/header-logo.png" alt=""></a>
+                <a href="#" class="main-header-mobile-login">
+                    <img src="img/icons/icon-header-login.svg" alt=""></a>
+            </div>
+            <div class="main-header-mobile-menu">
+                <nav class="mobile-menu">
+                    <ul>
+                        <a href="#">
+                            <li>Home</li>
+                        </a>
+                        <a href="#">
+                            <li>How it works</li>
+                        </a>
+                        <a href="#">
+                            <li>Discover a project</li>
+                        </a>
+                        <a href="#">
+                            <li>Blog</li>
+                        </a>
+                        <a href="#">
+                            <li>Find out more</li>
+                        </a>
+                    </ul>
+                </nav>
+            </div>
+
         </div>
     </header>
-    <div class="banner clearfix">
+
+    <div class="slider clearfix">
         <div class="container">
-            <h2>Intellectual Property has the Shelf Life</h2>
-            <p>of a Banana.</p>
+            <h2>Intellectual Property has&nbsp;the Shelf Life of a Banana.</h2>
+
             <a href="#" class="btn-member">Become a Member </a>
             <div class="slider-arrows">
                 <div class="arrow-left">
@@ -36,13 +75,19 @@
                     <a href="#"><img src="img/arrow.svg" alt=""></a>
                 </div>
             </div>
+            <div class="mobile-arrow-left">
+                <a href="#"><img src="img/arrow.svg" alt=""></a>
+            </div>
+            <div class="mobile-arrow-right">
+                <a href="#"><img src="img/arrow.svg" alt=""></a>
+            </div>
         </div>
     </div>
 
     <div class="description clearfix">
         <div class="container">
             <div class="icon"><img src="img/mountain.svg" alt=""></div>
-            <h2>Our work is the presentation <br>of our capabilities. </h2>
+            <h2>Our work is the presentation of our capabilities. </h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
                 <br>dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
             <p>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
@@ -61,7 +106,7 @@
     </div>
 
     <div class="advantages-description clearfix">
-        <div class="container ">
+        <div class="container">
             <div class="icon-block">
                 <img src="img/glasses.png" alt="">
             </div>
@@ -79,9 +124,7 @@
                 </div>
                 <div class="find-description">
                     <h3>Find Properties</h3>
-                    <p>Sign up to browse the portfolio.
-                        <br>Your journey to becoming a real
-                        <br>estate baron starts here.</p>
+                    <p>Sign up to browse the portfolio. Your journey to becoming a real estate baron starts here.</p>
                     <a href="#" class="btn-properties">Become A Member</a>
                 </div>
             </div>
@@ -103,8 +146,7 @@
             <div class="projects-top">
                 <div class="projects-top-description">
                     <h2>Featured Projects</h2>
-                    <p>Brief details of new and popular projects. To view full listings, you will be required to
-                        <br>sign up and become a member.</p>
+                    <p>Brief details of new and popular projects. To view full listings, you will be required to sign up and become a member.</p>
                 </div>
                 <a href="#" class="btn-pojects">Become a Мember</a>
             </div>
@@ -135,8 +177,7 @@
                     </figcaption>
 
                 </figure>
-
-
+                
                 <figure class="project-example">
 
                     <div class="picture">
@@ -189,8 +230,9 @@
 
                     </figcaption>
                 </figure>
-
-
+            </div>
+            <div class="another-projects">
+                <p><a href="">Another projects</a></p>
             </div>
         </div>
     </div>
@@ -199,14 +241,13 @@
         <div class="container">
             <div class="community-description">
                 <h2>Be Part of a Growing International Community</h2>
-                <p>One of the challenges in networking is everybody thinks it's making cold calls to strangers. Actually, it's
-                    <br>the people who already have strong trust relationships with you</p>
+                <p>One of the challenges in networking is everybody thinks it's making cold calls to strangers. Actually, it's the people who already have strong trust relationships with you</p>
             </div>
 
-            <div class="feedback ">
+            <div class="feedback clearfix">
                 <div class="feedback-first">
                     <div class="cloud">
-                        <h3>One of the Best </h3>
+                        <h3 >One of the Best </h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing
                             <br>elit, sed do eiusmod taempor incididunt ut labore et dolore magna aliqua.</p>
                     </div>
@@ -214,7 +255,7 @@
                         <div class="avatar">
                             <img src="img/david.png" alt="">
                         </div>
-                        <div class="description">
+                        <div class="person-description">
                             David Backham
                         </div>
                     </div>
@@ -229,7 +270,7 @@
                         <div class="avatar">
                             <img src="img/backham2.png" alt="">
                         </div>
-                        <div class="description">
+                        <div class="person-description">
                             David Backham
                         </div>
                     </div>
@@ -269,6 +310,9 @@
     <div class="copyright clearfix">
         <p>Copyright © 2001 - 2014 Cssauthor.com</p>
     </div>
+
+
+
 
 </body>
 
