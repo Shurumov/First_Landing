@@ -3,6 +3,11 @@
     padding: 0;
 }
 
+@font-face {
+    font-family: OpenSans; /* Имя шрифта */
+    src: url(../fonts/Open_Sans/OpenSans-Regular.ttf); /* Путь к файлу со шрифтом */
+   }
+
 body {
     margin: 0;
     padding: 0;
@@ -161,7 +166,8 @@ header {
     text-decoration: none;
 }
 
-.main-nav a:hover {
+.main-nav a:hover, 
+.main-nav a:focus {
     text-decoration: underline;
 }
 
@@ -193,7 +199,9 @@ header {
     transition: 0.5s;
 }
 
-.btn-login:hover {
+.btn-login:hover,
+.btn-login:focus
+{
     border: 2px solid #a1bf3f;
     background-color: #a1bf3f;
 }
@@ -244,7 +252,7 @@ header {
 }
 
 .mobile-menu li:hover,
-.mobile-menu li:active {
+.mobile-menu li:focus {
     background-color: #ababab;
     color: #ffffff;
 }
@@ -298,7 +306,9 @@ header {
 }
 
 
-.btn-member:hover {
+.btn-member:hover,
+.btn-member:focus,
+{
     background-color: #90b90a;
 }
 
@@ -620,7 +630,9 @@ header {
     transition: 0.5s;
 }
 
-.btn-properties:hover {
+.btn-properties:hover,
+.btn-properties:focus
+{
     background-color: #2395bb;
 }
 
@@ -661,7 +673,9 @@ header {
     transition: 0.5s;
 }
 
-.btn-submit:hover {
+.btn-submit:hover,
+.btn-submit:focus
+{
     background-color: #90b90a;
 }
 
@@ -782,7 +796,9 @@ header {
 
 }
 
-.btn-pojects:hover {
+.btn-pojects:hover,
+.btn-pojects:focus
+{
     background-color: #eaeaea;
     color: #969696;
 }
@@ -1057,10 +1073,9 @@ header {
 }
 
 .cloud h3 {
-    font-size: 1.35em
-    line-height: 1.3em;
+    font-size: 1.35em;
+    line-height: 2.3em;
     color: #9ec02d;
-    margin-bottom: 11px;
     text-align: center;
     font-weight: 500;
     margin-bottom: 0px;
@@ -1068,7 +1083,7 @@ header {
 
 .cloud p {
     font-size: 1em;
-    line-height: 1.2em;
+    line-height: 1.8em;
 }
 
 .cloud::after {
