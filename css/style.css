@@ -527,7 +527,7 @@ header {
 .icon-description p {
     
     font-size: 1.4em;
-    line-height: 2.5em;
+    line-height: 2em;
     color: #606060;
     font-weight: 100px;
    
@@ -613,7 +613,7 @@ header {
 
 .find-description p {
     font-size: 1.4em;
-    line-height: 2.5em;
+    line-height: 2em;
     margin-bottom: 33px;
 }
 
@@ -658,7 +658,7 @@ header {
 
 .find-description-buyers p {
     font-size: 1.4em;
-    line-height: 2.5em;
+    line-height: 2em;
     margin-bottom: 33px;
 }
 
@@ -690,13 +690,13 @@ header {
     }   
     
     .find-description h3, .find-description-buyers h3 {
-        font-size: 17px;
+        font-size: 1.3em;
         margin-bottom: 10px;
     }
     
     .find-description p, .find-description-buyers p {
         margin-top: 5px;
-        font-size: 14px;
+        font-size: 1.1em;
         
     }
     
